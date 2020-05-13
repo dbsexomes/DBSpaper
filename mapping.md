@@ -122,14 +122,14 @@ usage: gcovplot.py [-h] -o OUTPUT -t TXFILE [-g GENES] [-b BEDFILE] [-f FILELIST
  e.g. python2.7 metrics/gcovplot.py -b refdata/nimblegen_capture.bed -t refdata/gencode_v19_canonical.tx -o HG01606_gcov.pdf testdata/HG01606_HDAC2.bam
 ```
 #### Output plot 
-![alt text](gcov2.png)
-Median coverage for 2 different batches of samples (dbs1 and nygc) shown here for the same gene **FTCD**.
+![alt text](dbs_git_ethe1.png)
+Median coverage is shown here for a batch of samples for **ETHE1** gene.
 Plot of log(base 10) of the median, 20 th percentile and minimum coverage for
 each coding exon across all samples for a given sample set. Dark grey: Median coverage,
 medium grey: 20 th percentile coverage, light grey: minimum coverage at that position
 respectively. Coverage quality of each exon is indicated by colored blocks beneath the exon.
 Coverage quality of each exon is indicated by colored blocks beneath the coverage plot. Red:
-Greater than 15% of exon has less than 10x median coverage; green: 95% of the exon has
+Greater than 15% of exon has less than 10x median coverage; orange: 5 to 15% below 10x; green: 95% of the exon has
 minimum 20x coverage. UTRs that are part of the coding exons have a smaller indicator
 thickness. Regions of the exon that overlap with the capture array are indicated in blue just
 below the coverage plot. Exon scale in bases is shown in each plot. 

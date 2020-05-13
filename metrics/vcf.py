@@ -1,12 +1,8 @@
-#
-# COPYRIGHT (C) 2002-2012 Rajgopal Srinivasan
-#
 """
 .. module:: vcf
     :platform: Unix, Windows, MacOSX
     :synopsis: Parsing VCF 4.1 format files
 
-.. moduleauthor:: Rajgopal Srinivasan (rajgopal.srinivasan@gmail.com)
 
 Parser for VCF 4.1 format files. The format itself is documented_ at
 the 1000genomes project site

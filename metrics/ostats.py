@@ -4,8 +4,6 @@
     :synopsis: Compute basic statistics for a series of integers in
                an online fashion
 
-.. moduleauthor:: Rajgopal Srinivasan (rajgopal.srinivasan@gmail.com)
-
 Compute basic statistics for a series of integers in an online fashion
 
 """
@@ -21,7 +19,7 @@ class OStats(object):
 
     A typical usage for doing bed coverage woule be as follows::
 
-    >>> from gcn.lib.io.bed import readfile
+    >>> from bed import readfile
     >>> import pysam
     >>> bam = pysam.Samfile('somefile.bam', 'rb')
     >>> gstats = Ostats()

@@ -1,12 +1,8 @@
-#
-# COPYRIGHT (C) 2002-2011 Rajgopal Srinivasan
-#
 """
 .. module:: anyopen
     :platform: Unix, Windows, MacOSX
     :synopsis: Transparent opening of compressed and uncompressed files
 
-.. moduleauthor:: Rajgopal Srinivasan (rajgopal.srinivasan@gmail.com)
 
 Helper to open files of various types.  This module defines a function
 *openfile* which is passed the name of the file and returns a file object
@@ -18,7 +14,6 @@ bzip2, unix compress in addition to plain text uncompressed files.
     :platform: Unix, Windows, MacOSX
     :synopsis: Transparent opening of compressed and uncompressed files
 
-.. moduleauthor:: Rajgopal Srinivasan (rajgopal.srinivasan@gmail.com)
 
 Helper to open files of various types.  This module defines a function
 *openfile* which is passed the name of the file and returns a file object
