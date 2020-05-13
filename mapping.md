@@ -4,9 +4,7 @@
 ## Dependencies
 
 * python2.7
-* python3.7
 * numpy
-* matplotlib
 * pysam 
 
 
@@ -70,6 +68,8 @@ usage: qc_cov.py [-h] [-f BAMFILELIST] [-n NPROCS] [-b BEDFILE] [-q] [-o PREFIX]
 | 45x                          | fraction of bed file covered at 45x depth                     |
 
 ## Uniformity of coverage
+#### Dependencies
+* python3.7
 
 ### step1:
 Get base wise coverage of samples
@@ -106,6 +106,10 @@ e.g python3.7 metrics/calc_uniformity.py basecov_folder
 
 
 ## Gene coverage
+
+#### Dependencies
+* matplotlib
+
 ```
 usage: gcovplot.py [-h] -o OUTPUT -t TXFILE [-g GENES] [-b BEDFILE] [-f FILELIST] 
 

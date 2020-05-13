@@ -4,8 +4,6 @@
 ## Dependencies
 
 * python2.7
-* python3.7
-* numpy
 * pysam 
 
 
