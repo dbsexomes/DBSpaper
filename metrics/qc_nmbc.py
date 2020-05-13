@@ -303,7 +303,7 @@ if __name__ == "__main__":
             continue
         keycount = bc.changecounts[key]
         keyfrac = keycount / bc.basecounts[key[0]]
-        hdr.append(key)
+        hdr.append(key[0] + '>' + key[1])
         fvals.append(str(keyfrac))
         
         #ostream.write('%s\t%s>%s\t%d\t%s\n' % (bsub, key[0], key[1],
